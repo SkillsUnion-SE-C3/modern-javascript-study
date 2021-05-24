@@ -8,16 +8,24 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 - [Strict Mode in JavaScript](https://www.geeksforgeeks.org/strict-mode-javascript)
 - [Introduction to Arrow Function](https://www.javascripttutorial.net/es6/javascript-arrow-function/)
+- [Destructuring](https://medium.com/poka-techblog/destructuring-in-javascript-f4f56d5cbd80)
+- [Spread Syntax & Rest Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Enhanced Object Literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#description) - Read through to "Property Definition" part.
+- Array's functions:
+  - [.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+  - [.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+  - [.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+  - [.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 ## Questions
 
-1. What are the differences between strict mode and sloppy mode?
+1. Which of the following statement about strict mode is incorrect?
 
    ```
    Please write your answer here.
    ```
 
-2. Turn on strict mode for this function by editing the code in the following block:
+2. Arrow function does not have prototype object. True or False?
 
    ```js
    // Turn on strict mode for this function
@@ -38,33 +46,38 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
    // Please write your answer here
    ```
 
-4. Explain why is the following code not going to work?
+4. Write js code to destructure this object:
 
-   ```js
-   class CartClass {
-     constructor() {
-       this.cart = [];
-     }
+```js
+const person = {
+  name: "John",
+  age: 21,
+  gender: "m",
+};
 
-     add(item) {
-       this.cart.push(item);
-     }
+// Add your code here to destructure the object 'person'.
+```
 
-     print() {
-       setTimeout(function () {
-         console.log(this.cart);
-       }, 500);
-     }
-   }
+```js
+// Please write your answer here
+```
 
-   const cart = new CartClass();
-   cart.add({ id: 1, name: "toy" });
-   cart.print(); // undefined
-   ```
+5. Edit the code below to use enhanced object literal approach to assign properties.
 
-   ```
-   Please write your answer here
-   ```
+```js
+const person = {
+  name: "Mary",
+  age: 22,
+  gender: "f",
+};
+
+// Edit this object
+const mary = {
+  name: person.name,
+  age: person.age,
+  gender: person.gender,
+};
+```
 
 ### Response Guidelines
 

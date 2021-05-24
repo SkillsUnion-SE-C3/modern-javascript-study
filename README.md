@@ -10,11 +10,18 @@ By the end of this, you should know:
 - What are Arrow functions
 - Different brevity levels of Arrow functions
 - Differences and limitations of Arrow functions
+- Unpack values into distinct variables using Destructuring
+- What is a Spread operator
+- Differences between Object Literals and Enhanced Object Literals
+- Differences between `forEach`, `map`, `filter` and `reduce`
 
 By the end of this, you should be able to:
 
-- Use JavaScript Strict mode
-- Create and call Arrow functions using an expression
+- Explain what Strict mode does and how to activate it
+- Distinguish the brevity levels of Arrow function
+- Have conceptual understanding of Destructuring
+- Tell the several functions of Spread operator
+- Recognize Enhanced Object Literals
 
 ## Instructions
 
