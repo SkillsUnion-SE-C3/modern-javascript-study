@@ -21,9 +21,14 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 1. Which of the following statement about strict mode is incorrect?
 
-   ```
-   Please write your answer here.
-   ```
+- A: There is a strict-mode and sloppy-mode
+- B: Strict-mode may run codes faster
+- C: Strict-mode ensure silent errors are thrown
+- D: Activate strict-mode by using `no-sloppy-mode` keyword
+
+```
+Please write your answer here.
+```
 
 2. Arrow function does not have prototype object. True or False?
 
