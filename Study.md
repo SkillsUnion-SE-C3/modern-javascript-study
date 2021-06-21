@@ -90,9 +90,9 @@ const person = {
 3. Edit the code below to use enhanced object literal approach to assign properties.
 
 ```js
-  const name = "Mary",
-  const age = 22,
-  const gender = "f",
+  const name = "Mary"
+  const age = 22
+  const gender = "f"
 
 
 // Edit this object
