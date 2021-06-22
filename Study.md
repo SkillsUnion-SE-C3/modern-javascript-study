@@ -34,39 +34,44 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
   ```js
   const guests = [
-    {name: "Paul", age: 9, checkIn: false}, 
-    {name: "Fatima", age: 46, checkIn: false}, 
-    {name: "Anna", age: 16, checkIn: false}, 
-    {name: "Silver", age: 50, checkIn: false}
+    "Paul",
+    "Fatima",
+    "Anna",
+    "Silver",
   ]
 
   const renderGuest = (guests) => {
+    const guestList = document.querySelector('guests')
+  
     for(let i = 0; i < guests.length; i++) {
-     document.querySelector('guests').innerHTML += 
-      `<p>${guest[i].name} - ${guests[i].age}</p>`
+      const guest = guests[i]
+      guestList.innerHTML += `<p>${guest}</p>`
     }
   }
 
-  const getGuestsWithChildTicket = (guests) => {
-    const guestsWithChildTicket = []
+  const removeGuest = (guests, name) => {
+    const updatedGuestList = []
 
     for(let i = 0; i < guests.length; i++) {
-      if (guests[i].age <= 18) {
-        guestsWithChildTicket.push(guests[i])
+      const guest = guests[i]
+      
+      if (guest != name) {
+        updatedGuestList.push(guest)
       }
     }
-
-    return guestsWithChildTicket
+    
+    return updatedGuestList
   }
 
-  const checkGuestsIn = (guests) => {
+  const checkInAllGuests = (guests) => {
     const checkedInGuests = []
 
     for(let i = 0; i < guests.length; i++) {
-      guestsWithChildTicket.push({...guests[i], checkedIn: false})
+      guest = guests[i]
+      checkedInGuests.push(`${guest} - Has checked in`)
     }
 
-    return guestsWithChildTicket
+    return checkedInGuests
   }
   ```
 
