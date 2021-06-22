@@ -6,15 +6,16 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 ## Required Reading
 
-- [Introduction to Arrow Function](https://www.javascripttutorial.net/es6/javascript-arrow-function/)
+- [Introduction to Arrow Function](https://www.youtube.com/watch?v=22fyYvxz-do)
 - Array's functions:
+  - [Array iteration methods](https://www.youtube.com/watch?v=Urwzk6ILvPQ&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgVerified)
   - [.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
   - [.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
   - [.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
   - [.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-- [Destructuring](https://medium.com/poka-techblog/destructuring-in-javascript-f4f56d5cbd80)
-- [Spread Syntax & Rest Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-- [Enhanced Object Literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#description) - Read through to "Property Definition" part.
+- [Destructuring](https://www.youtube.com/watch?v=-vR3a11Wzt0&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgVerified)
+- [Spread Syntax & Rest Syntax](https://www.youtube.com/watch?v=iLx4ma8ZqvQ&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgVerified)
+- [Enhanced Object Literal](https://www.youtube.com/watch?v=Zk6oYqu3tsw&ab_channel=TheNetNinjaTheNetNinjaVerified)
 
 ## Questions
 
