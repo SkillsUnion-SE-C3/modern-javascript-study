@@ -6,7 +6,6 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 ## Required Reading
 
-- [Introduction to Arrow Function](https://www.youtube.com/watch?v=22fyYvxz-do)
 - Array's functions:
   - [Array iteration methods](https://www.youtube.com/watch?v=Urwzk6ILvPQ&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgVerified)
   - [.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
@@ -103,10 +102,19 @@ const person = {
 
 // Edit this object
 const mary = {
-  name: person.name,
-  age: person.age,
-  gender: person.gender,
+  name: name,
+  age: age,
+  gender: gender,
 };
+```
+
+4. Use the spread oprator to make a copy of fruits array and save it into a variable called 
+fruitsCopy
+
+```js
+
+const fruits = ["dragon fruit", "kiwi", "mango"]
+
 ```
 
 ### Response Guidelines
