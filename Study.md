@@ -27,7 +27,11 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
    ```
 
    ```js
-   // Please write your answer here
+   const cart = 0;
+   const addToCart = (item) => {
+     cart.add(item);
+   };
+   addToCart();
    ```
 
 2. Consider the functions `renderGuest`, `getGuestsWithChildTicket` and `getGuestsWithChildTicket` functions. Which array iteration methods would you use instead of the for loops?
@@ -76,7 +80,7 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
   ```
 
   ```js
-   // Please write your answer here
+   //forEach(), 
   ```  
 
 2. Write js code to destructure this object:
@@ -88,7 +92,10 @@ const person = {
   gender: "m",
 };
 
-// Add your code here to destructure the object 'person'.
+//  const {name, age, gender} = person;
+//To save proerties under different named variables 
+//const {name : a,  age : b,  age : c, gender : d} = person;
+
 ```
 
 
@@ -106,6 +113,13 @@ const mary = {
   age: age,
   gender: gender,
 };
+
+//my attempt 
+const mary = {
+  name,
+  age,
+  gender
+};
 ```
 
 4. Use the spread oprator to make a copy of fruits array and save it into a variable called 
@@ -114,6 +128,8 @@ fruitsCopy
 ```js
 
 const fruits = ["dragon fruit", "kiwi", "mango"]
+
+const fruitsCopy = [...fruits;
 
 ```
 
